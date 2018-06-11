@@ -1,0 +1,59 @@
+﻿body {
+    background-color: #197bbd;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;   
+}
+/*INDEX PAGE*/
+input {
+    font-family: Roboto;
+    height: 40px !important;
+    width: 500px !important;
+    font-size: 18px !important;
+}
+
+img {
+    max-height: 300px;
+    max-width: 300px;
+}
+/*LIST PAGE AND NAV BAR*/
+.navbar {
+    background-color: #197bbd;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    margin: 7.5px 0px;
+}
+
+.navbar-brand {
+    height: 40px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.nav > li {
+    display: inline-block !important;
+}
+
+.nav-link {
+    color: white !important;
+    cursor: pointer;
+    border: 1px white solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px !important;
+    margin: 0px 5px 0px;
+    display: inline-block !important;
+}
+
+.cuisine-header {
+    color: white !important;
+}
+
+/*-------------------------------------------*/
